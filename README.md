@@ -12,6 +12,7 @@ Python library: psutil
 # Arguments 
 flash.py <pid_MainPage> <pid_FlashPlayer> <timelength>
 
+
 html.py <pid_page> <timelength>
 
 # Bug Fixes
