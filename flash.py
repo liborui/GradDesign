@@ -10,7 +10,7 @@ in_pidFlash = int(sys.argv[2])
 in_time = int(sys.argv[3])
 
 timeStamp = datetime.datetime.now().strftime('%y%m%d_%H%M%S')
-strFile = "\\flash\\"+"flash"+timeStamp+".txt"
+strFile = ".\\flash\\"+"flash"+timeStamp+".txt"
 f = open(strFile,"w+")
 
 i = 0
