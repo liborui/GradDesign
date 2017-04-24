@@ -5,9 +5,9 @@ f = open("flash.txt","w+")
 
 i = 0
 while i<240:
-    p1 = psutil.Process(pid=21740)
+    p1 = psutil.Process(pid=8332)
     p1.cpu_percent(interval=0)
-    p2 = psutil.Process(pid=19472)
+    p2 = psutil.Process(pid=4164)
     p2.cpu_percent(interval=0)
     time.sleep(1)
     percent1 = p1.cpu_percent(interval=0)
