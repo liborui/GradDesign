@@ -1,11 +1,16 @@
-#-*- coding: UTF-8 -*-
+    #-*- coding: UTF-8 -*-
 import psutil,time
 import sys
+import datetime
 
 f=open("html.txt","w+")
 
 in_pid = int(sys.argv[1])
 in_time = int(sys.argv[2])
+
+timeStamp = datetime.datetime.now().strftime('%y%m%d_%H%M%S')
+strFile = ".\\html\\"+"html"+timeStamp+".txt"
+f = open(strFile,"w+")
 
 i = 0
 while i<in_time:
