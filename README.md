@@ -12,8 +12,10 @@ Python library: psutil
 # Arguments 
 flash.py \<pid_MainPage> \<pid_FlashPlayer> \<timelength>
 
-
 html.py \<pid_page> \<timelength>
+
+Where arguments can be found in Chrome or Chromium-based Browsers at \"More Tools - Task Management\"
+
 
 # Bug Fixes
 - 170424 I found that flash.py and html.py doesn`t work well, because a used Anaconda Python Realease and it brings psutil 5.0.1. Then I reinstalled psutil latest version 5.2.2 and it works.
