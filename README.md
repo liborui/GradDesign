@@ -10,10 +10,10 @@ Python library: psutil
 
 
 # Arguments 
-flash.py <pid_MainPage> <pid_FlashPlayer> <timelength>
+flash.py \<pid_MainPage> \<pid_FlashPlayer> \<timelength>
 
 
-html.py <pid_page> <timelength>
+html.py \<pid_page> \<timelength>
 
 # Bug Fixes
- 170424 I found that flash.py and html.py doesn`t work well, because a used Anaconda Python Realease and it brings psutil 5.0.1. Then I reinstalled psutil latest version 5.2.2 and it works.
+- 170424 I found that flash.py and html.py doesn`t work well, because a used Anaconda Python Realease and it brings psutil 5.0.1. Then I reinstalled psutil latest version 5.2.2 and it works.
