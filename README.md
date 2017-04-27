@@ -5,6 +5,8 @@ This is codes for my Graduate Project
 
 `flash.py` and `html.py` is used for obtaining the CPU percentage.
 
+`flash3.py` and `html2.py` is used for obtaining the CPU percentage when activated GPU acceleration.
+
 Folder `/flash` and `/html` containing testing results of several videoes 
 # Dependencies
 Python library: psutil
