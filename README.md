@@ -19,7 +19,7 @@ html.py \<pid_page> \<timelength>
 ### For GPU acceleration `enabled` cases:
 flash3.py \<pid_MainPage> \<pid_FlashPlayer> \<pid_GPUprocess> \<timelength>
 
-html3.py \<pid_page> \<pid_GPUprocess> \<timelength>
+html2.py \<pid_page> \<pid_GPUprocess> \<timelength>
 
 Where pid-concerned arguments can be found in Chrome or Chromium-based Browsers at \"More Tools - Task Management\"
 
