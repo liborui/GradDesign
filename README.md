@@ -25,6 +25,4 @@ Where pid-concerned arguments can be found in Chrome or Chromium-based Browsers 
 
 
 # Bug Fixes
-- 20170424 
-
-I found that flash.py and html.py doesn\`t work well, because a used Anaconda Python Realease and it brings psutil 5.0.1. Then I reinstalled psutil latest version 5.2.2 and it works.
+- `20170424` I found that flash.py and html.py doesn\`t work well, because a used Anaconda Python Realease and it brings psutil 5.0.1. Then I reinstalled psutil latest version 5.2.2 and it works.
