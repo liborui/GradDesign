@@ -5,7 +5,7 @@ This is codes for my Graduate Project
 
 `flash.py` and `html.py` is used for obtaining the CPU percentage.
 
-Folder `flash` and `html` containing testing results of several videoes 
+Folder `/flash` and `/html` containing testing results of several videoes 
 # Dependencies
 Python library: psutil
 
