@@ -9,12 +9,19 @@ flash.py and html.py is used for obtaining the CPU percentage.
 Python library: psutil
 
 
-# Arguments 
+# Arguments
+
+### For GPU acceleration `disabled` cases:
 flash.py \<pid_MainPage> \<pid_FlashPlayer> \<timelength>
 
 html.py \<pid_page> \<timelength>
 
-Where arguments can be found in Chrome or Chromium-based Browsers at \"More Tools - Task Management\"
+### For GPU acceleration `enabled` cases:
+flash3.py \<pid_MainPage> \<pid_FlashPlayer> \<pid_GPUprocess> \<timelength>
+
+html3.py \<pid_page> \<pid_GPUprocess> \<timelength>
+
+Where pid-concerned arguments can be found in Chrome or Chromium-based Browsers at \"More Tools - Task Management\"
 
 
 # Bug Fixes
